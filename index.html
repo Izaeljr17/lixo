@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Reciclagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo da Reciclagem ♻️</h1>
+    <p>Arraste o lixo para a lixeira correta!</p>
+
+   <div class="trash-area">
+    <div class="trash-items">
+        <img src="./img/image copy 7.png" alt="Papel" draggable="true" class="trash" data-type="papel">
+        <img src="./img/image copy 6.png" alt="Plástico" draggable="true" class="trash" data-type="plastico">
+        <img src="./img/image copy 5.png" alt="Metal" draggable="true" class="trash" data-type="metal">
+        <img src="./img/image copy 4.png" alt="Orgânico" draggable="true" class="trash" data-type="organico">
+        <img src="./img/image copy 11.png" alt="Papel" draggable="true" class="trash" data-type="papel">
+        <img src="./img/image copy 10.png" alt="Plástico" draggable="true" class="trash" data-type="plastico">
+        <img src="./img/image copy 9.png" alt="Metal" draggable="true" class="trash" data-type="metal">
+        <img src="./img/image copy 8.png" alt="Orgânico" draggable="true" class="trash" data-type="organico">
+    </div>
+</div>
+
+
+         <div class="bins">
+            <div class="bin" data-accept="papel">
+                <img src="./img/image.png" alt="Lixeira Papel">
+            </div>
+            <div class="bin" data-accept="plastico">
+                <img src="./img/image copy.png" alt="Lixeira Plástico">
+            </div>
+            <div class="bin" data-accept="metal">
+                <img src="./img/image copy 2.png" alt="Lixeira Metal">
+            </div>
+            <div class="bin" data-accept="organico">
+                <img src="./img/image copy 3.png" alt="Lixeira Orgânico">
+            </div>
+        </div>
+    </div>
+
+    <p id="score">Pontuação: 0</p>
+    <script src="script.js"></script>
+</body>
+</html>
